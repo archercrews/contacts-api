@@ -1,0 +1,40 @@
+[
+  {
+    "id": 643,
+    "name": {
+        "first": "Bruce",
+        "middle": "Batman",
+        "last": "Wayne"
+    },
+    "address": {
+        "street": "200 Wayne Manor",
+        "city": "Gotham",
+        "state": "?",
+        "zip": "23220"
+    },
+    "phone": {
+        "number": "8041234567",
+        "type": "mobile"
+    },
+    "email": "definitely-not-batman@gmail.com"
+  },
+  {
+    "id": 413,
+    "name": {
+        "first": "Hal",
+        "middle": "GL",
+        "last": "Jordan"
+    },
+    "address": {
+        "street": "100 Coastal Drive",
+        "city": "Coastal City",
+        "state": "?",
+        "zip": "23220"
+    },
+    "phone": {
+        "number": "8041234567",
+        "type": "mobile"
+    },
+    "email": "definitely-not-green-lantern@gmail.com"
+  }
+]
