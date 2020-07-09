@@ -1,12 +1,13 @@
 import Datastore from "nedb";
-import { Contact } from './contact';
+import { Contact } from './models/contact';
 
+// Probably could've just had this functionality in the routes file since it's there's not really
+// any data manipulation or mapping but then again it does clean up the routes file a bit so *shrug*.
 export class Database {
-  public db: Datastore = new Datastore("./contacts.json");
+  public db: Datastore;
   
   constructor() {
     this.db = new Datastore("./contacts.json");
-    this.db.loadDatabase();
   }
 
   public getAllContacts() {

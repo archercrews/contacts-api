@@ -1,7 +1,7 @@
 import { Router, Request, Response } from "express";
 import { Database } from "../data/database";
 import { OK, CREATED, BAD_REQUEST } from 'http-status-codes';
-import { Contact } from 'src/data/contact';
+import { Contact } from 'src/data/models/contact';
 
 export class ContactsRouter {
   public router = Router();
